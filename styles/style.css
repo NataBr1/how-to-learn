@@ -193,7 +193,7 @@
   position: relative;
   padding-top: 100px;
   background-color: #f2f2f2;
-  z-index: -2;
+  z-index: -1;
 }
 
 .feynman__title {
@@ -224,13 +224,13 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  margin: 0;
   position: absolute;
-
 }
+
 .link_place_feynman {
   right: 40px;
   top: 50%;
+  margin: 0;
 }
 
 .feynman__main-illustration {
@@ -239,7 +239,7 @@
   position: absolute;
   left: 0;
   bottom: 0;
-  z-index: -1;
+  z-index: -2;
 }
 
 .kaufman {
