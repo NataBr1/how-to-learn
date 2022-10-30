@@ -4,9 +4,6 @@
   margin: 0 auto;
   padding: 0;
   font-family: 'Helvetica Neue', Arial, sans-serif;
-}
-
-html {
   box-sizing: border-box;
 }
 
@@ -40,7 +37,7 @@ html {
   font-size: 102px;
   font-weight: 600;
   margin: 0;
-  left: 64px;
+  margin-left: 64px;
   z-index: 2;
 }
 
@@ -65,10 +62,11 @@ html {
 /* Картина Опять двойка */
 .header__main-illustration {
   position: absolute;
-  object-fit: contain;
+  object-fit: cover;
   right: 0;
   bottom: 0;
   width: 765px;
+  height: 608px;
   z-index: 1;
 
 }
@@ -168,6 +166,7 @@ html {
   font-size: 24px;
   font-weight: 600;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .table__text {
@@ -178,12 +177,14 @@ html {
   margin-bottom: 0;
 }
 
+/* Секция про Фейнмана */
 .feynman {
   min-height: 890px;
   position: relative;
   padding-top: 100px;
   background-color: #f2f2f2;
   z-index: 1;
+  box-sizing: border-box;
 }
 
 .feynman__title {
@@ -203,6 +204,7 @@ html {
   text-align: center;
 }
 
+/* Кнопка Подробнее */
 .feynman__link {
   text-decoration: none;
   color:#2f80ed;
@@ -215,6 +217,7 @@ html {
   margin: 0;
 }
 
+/* Портрет Фейнмана */
 .feynman__main-illustration {
   width: 867px;
   height: 637px;
@@ -224,6 +227,7 @@ html {
   z-index: -1;
 }
 
+/* Секция про Кауймана */
 .kaufman {
   width: 100%;
   background-color: #1f1f1f;
@@ -235,29 +239,15 @@ html {
   color: white;
 }
 
-.section-title_theme_dark {
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 600;
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 20px;
-}
-.section-subtitle_theme_dark {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  text-align: center;
-  margin: 0;
-}
-
+/* Таблица на темном фоне */
 .table__cell_theme_dark {
   margin-top: 80px;
   width: 200px;
 }
 
+/* Синий треугольник */
 .kaufman__triangle {
-  background-image: url(/images/kaufman-triangle.svg);
+  background-image: url(../images/kaufman-triangle.svg);
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
@@ -272,11 +262,11 @@ html {
 .footer {
   background-color:#1f1f1f;
   display: flex;
-  flex-basis: 771px;
   min-height: 350px;
   color: white;
   padding-top: 60px;
   padding-bottom: 40px;
+  box-sizing:border-box;
 }
 
 .footer__columns {
@@ -286,15 +276,15 @@ html {
   justify-content: space-between;
 }
 
-/* Правая часть с логотипом и автором */
+/* Левая часть с логотипом и автором */
 .footer__column_content_copyright {
-  width: 50%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 0;
+  flex-basis: 771px;
 }
 
 .logo_place_footer {
@@ -309,7 +299,7 @@ html {
   font-weight: normal;
 }
 
-/* Левая часть со ссылками */
+/* Правая часть со ссылками */
 .footer__column-heading {
   color: white;
   margin: 0;
