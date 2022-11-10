@@ -1,0 +1,7 @@
+/*Секция о проблемах в обучении */
+/* Обертка для текста и заголовка */
+.description {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}

@@ -1,0 +1,5 @@
+/* Стили для ссылок */
+.hover__link:hover {
+  opacity: .6;
+  transition: .3s ease-in;
+}
