@@ -1,5 +1,5 @@
 /* Секция с видео с Youtube */
 .video {
-  height: 440px;
+  min-height: 440px;
   margin-top: 100px;
 }
