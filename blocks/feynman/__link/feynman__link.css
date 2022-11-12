@@ -11,7 +11,3 @@
   margin: 0;
 }
 
-.feynman__link:hover {
-  opacity: .6;
-  transition: .3s ease-in;
-}

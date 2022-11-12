@@ -1,7 +1,5 @@
-@import url(../styles/normalize.css);
-@import url(../blocks/rotation/rotation.css);
+@import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/hover/__link/hover__link.css);
 
 /* Заголовок с логотипом и картиной Опять двойка */
 @import url(../blocks/header/header.css);
@@ -86,3 +84,9 @@
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
+
+/* Анимации */
+@import url(../blocks/rotation/rotation.css);
+@import url(../blocks/link-hover/link-hover.css);
+
+
